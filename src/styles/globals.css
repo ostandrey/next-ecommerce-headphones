@@ -252,6 +252,7 @@ text-align: end;
   left: 25%;
 }
 .banner-desc .right{
+  max-width: 35%;
   line-height: 1.4;
 }
 .banner-desc .right h3{
@@ -623,21 +624,26 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
+    height: auto;
     top: -2%;
-    right: -6%;
+    right: 0%;
+    width: 70%;
   }
   .footer-banner-container{
-    height: 560px;
+    height: auto;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 77%;
+    height: auto;
+    width: 70%;
     left: 30%;
     top: 6%;
-    height: 56%
   }
+
+  .banner-desc .right{
+    max-width: 100%;
+  }
+
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 50px;
